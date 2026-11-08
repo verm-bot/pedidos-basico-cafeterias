@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Pedido de Cafetería</string>
+
+    <!-- Pantalla 1 -->
+    <string name="titulo_app">Pedido de Cafetería</string>
+    <string name="hint_nombre">Nombre del cliente</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="msg_nombre_vacio">Ingrese el nombre del cliente</string>
+    <string name="msg_nombre_corto">El nombre debe tener al menos 6 caracteres</string>
+
+    <!-- Pantalla 2 -->
+    <string name="titulo_seleccion">Seleccione su pedido</string>
+    <string name="lbl_bebidas">Bebidas</string>
+    <string name="lbl_postres">Postres (opcional)</string>
+    <string name="bebida_cafe">Café</string>
+    <string name="bebida_te">Té</string>
+    <string name="bebida_jugo">Jugo natural</string>
+    <string name="bebida_chocolate">Chocolate caliente</string>
+    <string name="bebida_capuchino">Capuchino</string>
+    <string name="bebida_limonada">Limonada</string>
+    <string name="postre_ninguno">Ninguno</string>
+    <string name="postre_brownie">Brownie</string>
+    <string name="postre_cheesecake">Cheesecake</string>
+    <string name="postre_pastel">Pastel de chocolate</string>
+    <string name="postre_galleta">Galleta de avena</string>
+    <string name="chk_azucar">Agregar azúcar</string>
+    <string name="btn_confirmar">Confirmar pedido</string>
+    <string name="msg_sin_bebida">Seleccione una bebida para continuar</string>
+
+    <!-- Pantalla 3 -->
+    <string name="titulo_resumen">Resumen del pedido</string>
+    <string name="lbl_cliente">Cliente</string>
+    <string name="lbl_bebida">Bebida</string>
+    <string name="lbl_postre">Postre</string>
+    <string name="lbl_azucar">Azúcar</string>
+    <string name="msg_pedido_registrado">Pedido registrado correctamente</string>
+</resources>

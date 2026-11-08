@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cafe_fondo"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/titulo_seleccion"
+            android:textColor="@color/texto_principal"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- BEBIDAS -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/lbl_bebidas"
+            android:textColor="@color/texto_secundario"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/rgBebidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbCafe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bebida_cafe"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbTe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bebida_te"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbJugo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bebida_jugo"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbChocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bebida_chocolate"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbCapuchino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bebida_capuchino"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbLimonada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bebida_limonada"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cbAzucar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/chk_azucar"
+            android:textSize="18sp" />
+
+        <!-- POSTRES (opcional) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/lbl_postres"
+            android:textColor="@color/texto_secundario"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/rgPostres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbNinguno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/postre_ninguno"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbBrownie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/postre_brownie"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbCheesecake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/postre_cheesecake"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbPastel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/postre_pastel"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbGalleta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/postre_galleta"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/cafe_primario"
+            android:text="@string/btn_confirmar"
+            android:textColor="@color/blanco" />
+
+    </LinearLayout>
+</ScrollView>
